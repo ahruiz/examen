@@ -6,7 +6,7 @@ print("*" * 90)
 print("Codigo para adivinar numero escondido con 5 oportunidades para acertar....")
 
 numEscon = random.randint(1, 100)
-#numEscon = 5
+#numEscon = 33
 
 for i in range(5):
     numUsr = int(input(f"Ingresa el numero: "))
