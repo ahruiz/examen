@@ -8,13 +8,20 @@ rang2 = int(input("ingresa el maximo del rango: "))
 parImp = input("Ingresa P para pares o I para impares: ")
 parImp = parImp.upper()
 
+misNum = []
+
 if parImp == "P":
     for i in range(rang1, rang2):
         if i % 2 == 0:
-            print(f"....{i}")
+            misNum.append(i)
+    print(f"mis numeros dentro del rango son:\n {misNum}")
+    totNump = len(misNum)
+    print(f"Para un total de {totNump} numeros pares")
 else:
     for i in range(rang1, rang2):
         if i % 2 != 0:
-            print(i)
-
-
+            misNum.append(i)
+    print(f"mis numeros dentro del rango son:\n {misNum}")
+    
+    totNump = len(misNum)
+    print(f"Para un total de {totNump} numeros impares")
