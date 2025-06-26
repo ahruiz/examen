@@ -50,7 +50,6 @@ def iniciar_sess():
         
         return False
     
-data = []
 
 def menu_ppal():
     while True:
@@ -67,13 +66,13 @@ def menu_ppal():
                 
                 serv = input(f"{Fore.YELLOW}Seleccione una opcion...: {Fore.WHITE}")
                 if serv == "1":
-                    print(f"{Fore.YELLOW} Retiro de efectivo exitoso {Fore.WHITE}")
+                    print(f"{Fore.YELLOW} ............Retiro de efectivo exitoso {Fore.WHITE}")    
                 elif serv == "2":
-                    print(f"{Fore.YELLOW}Depsito de efectivo exitoso {Fore.WHITE}")
+                    print(f"{Fore.YELLOW} ............Depsito de efectivo exitoso {Fore.WHITE}")
                 elif serv == "3":
-                    print(f"{Fore.YELLOW}Su saldo es: $1,200.00 {Fore.WHITE}")
+                    print(f"{Fore.YELLOW} ............Su saldo es: $1,200.00 {Fore.WHITE}")
                 else:
-                    print(f"{Fore.YELLOW}Saliendo del sistema....{Fore.WHITE}")
+                    print(f"{Fore.YELLOW} ............Saliendo del sistema {Fore.WHITE}")
                     break
                 
         elif opcion == "2":
