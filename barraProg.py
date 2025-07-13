@@ -8,7 +8,7 @@ for i in range(ancho + 1):
     
     os.system("clear")
     
-    barra = "░" * i 
+    barra = "▒▒" * i 
     
     print(f"{barra} {porcentaje}%✅")
     

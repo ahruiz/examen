@@ -1,8 +1,11 @@
 #juego piedra papael y tij
-
+import os
 from random import choice
+from colorama import Fore
 
-print("Juguemos PIEDRA, PAPEL y TIJERAAAAA....")
+os.system("clear")*10
+
+print(f"{Fore.YELLOW}Juguemos PIEDRA, PAPEL y TIJERAAAAA....{Fore.WHITE}")
 
 mov = ["piedra", "papel", "tijera"]
 
